@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.00019999999495" prefWidth="538.9998779296875" style="-fx-background-color:orange" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Button fx:id="start" layoutX="201.0" layoutY="85.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="141.9998779296875" style="-fx-background-color:green" text="Start">
+      <effect>
+        <Reflection />
+      </effect>
+    </Button>
+    <Button fx:id="manual" layoutX="343.0" layoutY="85.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="142.0" style="-fx-background-color:yellow" text="Manual">
+      <effect>
+        <Reflection />
+      </effect>
+    </Button>
+    <Button fx:id="about" layoutX="59.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.999900000002526" prefWidth="142.0" style="-fx-background-color:yellow" text="About us">
+      <effect>
+        <Reflection />
+      </effect>
+    </Button>
+    <Button fx:id="exit" layoutX="250.0" layoutY="247.0" mnemonicParsing="false" style="-fx-background-color:red" text="EXIT">
+      <effect>
+        <Reflection />
+      </effect>
+    </Button>
+  </children>
+</AnchorPane>

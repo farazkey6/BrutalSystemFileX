@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="539.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TextArea editable="false" layoutX="102.0" layoutY="64.0" prefHeight="236.0" prefWidth="300.0" text="sdfjsffjk" wrapText="true" />
+    <Button fx:id="home" layoutX="474.0" layoutY="328.0" mnemonicParsing="false" text="home" />
+  </children>
+</AnchorPane>

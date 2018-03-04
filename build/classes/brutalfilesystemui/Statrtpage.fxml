@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="539.0" style="-fx-background-color:green" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Button fx:id="import" layoutX="223.0" layoutY="71.0" mnemonicParsing="false" prefWidth="93.0" style="-fx-background-color:orange" text="Import">
+      <effect>
+        <DropShadow height="35.1111111111111" radius="17.05555555555555" width="35.1111111111111">
+          <color>
+            <Color blue="0.200" green="0.968" red="1.000" fx:id="x1" />
+          </color>
+        </DropShadow>
+      </effect>
+    </Button>
+    <Button fx:id="export" layoutX="223.0" layoutY="138.0" mnemonicParsing="false" prefWidth="93.0" style="-fx-background-color:orange" text="Export">
+      <effect>
+        <DropShadow color="$x1" height="35.1111111111111" radius="17.05555555555555" width="35.1111111111111" />
+      </effect>
+    </Button>
+    <Button fx:id="backup" layoutX="223.0" layoutY="211.0" mnemonicParsing="false" prefWidth="93.0" style="-fx-background-color:orange" text="Backup">
+      <effect>
+        <DropShadow color="$x1" height="35.1111111111111" radius="17.05555555555555" width="35.1111111111111" />
+      </effect>
+    </Button>
+    <Button fx:id="delete" layoutX="223.0" layoutY="283.0" mnemonicParsing="false" prefWidth="93.0" style="-fx-background-color:orange" text="Delete">
+      <effect>
+        <DropShadow color="#fff966" height="35.1111111111111" radius="17.05555555555555" width="35.1111111111111" />
+      </effect>
+    </Button>
+    <Button fx:id="home" layoutX="443.0" layoutY="328.0" mnemonicParsing="false" style="-fx-background-color:red" text="HOME" />
+  </children>
+  <effect>
+    <Bloom>
+      <input>
+        <ColorAdjust brightness="-0.1984732824427482" contrast="-0.04580152671755722" hue="-0.030534351145038108" saturation="0.9465648854961832" />
+      </input>
+    </Bloom>
+  </effect>
+</AnchorPane>
